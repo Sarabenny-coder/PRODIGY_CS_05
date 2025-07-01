@@ -1,10 +1,10 @@
-# PRODIGY_CS_05
-Network Packet Analyzer
+# 🛰️ PRODIGY_CS_05 – Network Packet Analyzer
+
 This is the fifth task of the **Prodigy InfoTech Cybersecurity Internship**.
 
 ---
 
-##  Objective
+## 📌 Objective
 
 Develop a Python tool that captures and analyzes network packets. The tool extracts:
 
@@ -14,7 +14,7 @@ Develop a Python tool that captures and analyzes network packets. The tool extra
 
 ---
 
-##  Features
+## 🛠 Features
 
 - Real-time packet sniffing
 - Displays IP headers and protocol
@@ -24,30 +24,32 @@ Develop a Python tool that captures and analyzes network packets. The tool extra
 
 ---
 
-##  How to Run
+## 💻 How to Run
 
 1. Install [Python](https://www.python.org/downloads/)  
 2. Install dependencies:
-```bash
-pip install scapy
-Run the script (as admin/root):
+   ```bash
+   pip install scapy
+3. Run the script (as administrator or root):
 
 bash
 Copy
 Edit
 python packet_sniffer.py
 
-## Requirements
+Requirements
 Python 3.x
 Scapy
-Npcap (Windows only – install from https://nmap.org/npcap)
+Npcap (for Windows) → https://nmap.org/npcap
 
-## Files Included
+Files Included
 packet_sniffer.py – Python script to sniff packets
+
+README.md – Project documentation
 
  Author
 Anit Benny
 Intern – Prodigy InfoTech (Cybersecurity Track)
 
 ⚠️ Disclaimer
-This tool is for educational purposes only. Unauthorized usage on external networks is illegal.
+This tool is for educational purposes only. Unauthorized usage on external/public networks is illegal.
